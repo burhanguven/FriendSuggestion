@@ -1,0 +1,23 @@
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\bin\Debug\arrayListKullanımı.exe.config
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.exe
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.pdb
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\bin\Debug\arrayListKullanımı.exe
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\bin\Debug\arrayListKullanımı.pdb
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\ArkadasOneri(Muh4).csprojResolveAssemblyReference.cache
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.Form1.resources
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.ogrenciNetwork.resources
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.ogrenciProfil.resources
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.Properties.Resources.resources
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\ArkadasOneri(Muh4).csproj.GenerateResource.Cache
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\bin\Debug\arrayListKullanımı.exe.config
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.exe
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.pdb
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\bin\Debug\arrayListKullanımı.exe
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\bin\Debug\arrayListKullanımı.pdb
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\ArkadasOneri(Muh4).csprojResolveAssemblyReference.cache
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.Form1.resources
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.ogrenciNetwork.resources
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.ogrenciProfil.resources
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.Properties.Resources.resources
+C:\Users\Burhan\Desktop\Yeni klasör\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\ArkadasOneri(Muh4).csproj.GenerateResource.Cache
+C:\Users\Burhan\Desktop\arkadasoneri\arrayListKullanımı\arrayListKullanımı\obj\Debug\arrayListKullanımı.ogrenciListele.resources
