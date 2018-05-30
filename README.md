@@ -21,7 +21,3 @@
 ![7](https://user-images.githubusercontent.com/29856507/40707557-af84a02a-63f9-11e8-93b1-6e57903e225f.png)
 
 <h2> Örnek Girişler</h2>
-
-![6](https://user-images.githubusercontent.com/29856507/40707343-19cd0ce8-63f9-11e8-9f86-02f5bf22120b.png)
-
-![7](https://user-images.githubusercontent.com/29856507/40707363-26b9d620-63f9-11e8-9ee1-e5272528fb73.png)
