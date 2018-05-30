@@ -156,16 +156,16 @@ namespace arrayListKullanımı
 
         public int[] tempFunc(String[,] op, int a)
         {
-            //Arakadaşları ve arkadaşların olmayanlarının yarısıyla doldurduğum Array listdeki her bir kişinin anket değerlerini diziye attım.
-
+            //matriste hangi satirda kaldıysak ilgili satırı alıp diziye atıyoruz.
             int[] tempPoint = new int[16];
-            tempPoint[0] = 0;//Bu değer önemsiz.15 tane anket değeri olduğu için bu değerleri dizinin diğer elamnlarında tuttum.
+            //gecici degerimiz
+            tempPoint[0] = 0;
 
             for (int i = 1; i < tempPoint.Length; i++)
             {
                 tempPoint[i] = Convert.ToInt32(op[a, i]);
             }
-            return tempPoint;//Anket değerlerini döndürdüm.
+            return tempPoint;//dizi değerlerini
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -351,11 +351,12 @@ namespace arrayListKullanımı
                         beta[6] * x1[6] + beta[7] * x1[7] + beta[8] * x1[8] + beta[9] * x1[9] + beta[10] * x1[10] + beta[11] * x1[11] + beta[12] * x1[12] +
                         beta[13] * x1[13] + beta[14] * x1[14] + beta[15] * x1[15]));
                     double hb = 1.0 / (1.0 + hx);
-                    double y = etiket[j];//Arakadaşımı ,değilmiyi etikette tutuyoruz.
+                    //ogrenciProfilMatris matrisinde ki arkadaş olanları ayrı bir dizide etiket dizinde "1" olarak atandı geri kalan kısım matris boyutu kadar arta kalan kısmı "0" atadık.
+                    double y = etiket[j];
 
                     toplam1 += hb - y;
                 }
-                //betanın yeni değerini tuttuk.
+                //betanın yeni değeri
                 newBeta[0] = beta[0] - (stepSize * toplam1 / n);
                 for (int q = 1; q <= 15; q++)
                 {
@@ -369,7 +370,7 @@ namespace arrayListKullanımı
                         double y = etiket[a];
                         toplam2 += (hb - y) * x1[q];
                     }
-                    //beta 0 hariç diğer betaların değerini tutuk.
+                    //beta 1 değerinden başlıyor. beta 0 ı almıyoruz.
                     newBeta[q] = beta[q] - (stepSize * toplam2 / n);
                 }
                 for (int s = 0; s < beta.Length; s++)
@@ -377,9 +378,11 @@ namespace arrayListKullanımı
                     beta[s] = newBeta[s];
                 }
             }
-            //son beta değerlerini bulduk.
+            
             for (int i = 0; i < nArkadaşOlmayan; i++)
             {
+                //son beta değerlerini bulduk.
+                //tempFunc a göndererek matristeki satırı alıp diziye atıp daha kolay işlem yapıyorum.
                 int[] x1 = tempFunc(artanOgrenci, i);
                 double hb = 1.0 / (1.0 + Math.Exp(-(beta[0] + beta[1] * x1[1] + beta[2] * x1[2] + beta[3] * x1[3] + beta[4] * x1[4] + beta[5] * x1[5] +
                    beta[6] * x1[6] + beta[7] * x1[7] + beta[8] * x1[8] + beta[9] * x1[9] + beta[10] * x1[10] + beta[11] * x1[11] + beta[12] * x1[12] +
@@ -417,7 +420,7 @@ namespace arrayListKullanımı
             ilkYarisiniDR.Close();
             conn.Close();
 
-            //bulunan arkadaşları vt ye bağlanıp ad-soyad adını ve tekrardan numaralarını ekrana basaağım.
+            //bulunan arkadaşları db de ad-soyad ve tekrardan numaralarını ekrana bastım.
             for (int i = 0; i < 10; i++)
             {
                 conn.Open();
@@ -433,7 +436,6 @@ namespace arrayListKullanımı
                 dtr.Close();
                 conn.Close();
             }
-            //textbox ı temizleme
             textBox1.Clear();
 
         }

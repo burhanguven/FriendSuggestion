@@ -65,7 +65,7 @@
             this.toolStripSplitButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 629);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1174, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(1173, 27);
             this.toolStrip1.TabIndex = 8;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -193,7 +193,7 @@
             this.columnHeader1});
             this.listView1.Location = new System.Drawing.Point(477, 80);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(324, 497);
+            this.listView1.Size = new System.Drawing.Size(324, 307);
             this.listView1.TabIndex = 15;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -208,7 +208,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1174, 656);
+            this.ClientSize = new System.Drawing.Size(1173, 656);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.toolStrip1);
